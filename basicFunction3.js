@@ -39,3 +39,8 @@ console.log(f); // [ 1, 2, 3, 4, 5, 6 ]
 
 // concat vs spread
 // 배열의 길이가 10개인 경우는 후자, 100개인 경우는 전자가 성능테스트시 더 좋게 나옴. 항상 객체들을 고려해 성능 테스트 진행해야함
+
+const g = { name: "한승욱", age: 27 };
+const h = { ...g, key: 1 };
+console.log(h); // { name: '한승욱', age: 27, key: 1 }
+// 객체 안에 있는 값들을 순수 key, value로 분해하고 다시 새로운 객체에 할당 가능.
