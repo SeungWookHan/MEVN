@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SeungWookHan/MEVN/issues"
   },
-  "homepage": "https://github.com/SeungWookHan/MEVN#readme"
+  "homepage": "https://github.com/SeungWookHan/MEVN#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
