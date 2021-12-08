@@ -8,7 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
+    "capture-website": "^2.1.1",
     "fxjs": "^0.21.3",
     "ramda": "^0.27.1"
   }
