@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
 
 setTimeout(() => {
   // 에러를 발생시켜 1초마다 서버가 중지되게 함
-  JSON.parse("{Z");
+  JSON.parse("{Z"); // 이는 올바른 JSON 형식이 아니라 에러 남
 }, 1000);
 server.listen(PORT, () => {
   console.log(`Server running at http://127.0.0.1:${PORT}/`);
